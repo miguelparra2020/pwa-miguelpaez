@@ -1,9 +1,16 @@
 import styles from '../styles/Home.module.css'
+import Iframe from 'react-iframe'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/SKWxOsbt9gU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+<Iframe url="https://the-house-contabilidad.vercel.app"
+        width="100%"
+        height="740px"
+        id=""
+        allowFullScreen 
+        styles={{border: "0px"}}
+        className=""
+        display="block"
+        position="relative"/>
   )
 }
