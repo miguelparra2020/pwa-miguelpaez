@@ -7,12 +7,13 @@ export default function Home() {
 <Iframe url="https://the-house-contabilidad.vercel.app"
         width="100%"
         height="740px"
-        id=""
+        className={styles.iframe}
         allowFullScreen 
         styles={{border: "0px"}}
-        className=""
         display="block"
         position="relative"/>
         </div>
   )
 }
+
+
